@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4fa83ff0c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/slide02.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hiii, I'm <span>Sneha</span> from Bangalore</h1>
+            </div>
+        </div>
+     </div>
+    
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/sneha.formal3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe harum voluptas repellendus nemo et, nam quasi modi sed aliquam totam quisquam pariatur necessitatibus a deserunt quos minima vitae nobis aspernatur in similique! Vitae, nisi dolore quis blanditiis, earum ab ratione excepturi rerum repellendus nulla porro. Quae eum nisi ea ut?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web application development</li>
+                            <li><span>App Development</span><br>Building Android application</li>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Fresher</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025(currently pursuing)</span><br>MCA from CMR University</li>
+                            <li><span>2023</span><br>BCA from V.H.D central institute of Home Science</li>
+                            <li><span>2020</span><br>Nagarjuna Pre-University College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!-- -------------Myprojects------------------ -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, et maiores voluptatum cumque quod asperiores minus. Officia dolorum delectus a.</p>
+                <a href="#">Learm more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, et maiores voluptatum cumque quod asperiores minus. Officia dolorum delectus a.</p>
+                <a href="#">Learm more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, et maiores voluptatum cumque quod asperiores minus. Officia dolorum delectus a.</p>
+                <a href="#">Learm more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------Portfolio----------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-List">
+            <div class="work">
+                <img src="./images/work-1.png">
+                <div class="layer">
+                    <h3> Websites</h3>
+                    <p>I created static Amazone and You Tube Website using HTML and CSS. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png">
+                <div class="layer">
+                    <h3>Music App </h3>
+                    <p>The aap connects us to talented people around the world. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png">
+                <div class="layer">
+                    <h3>Movie Ticket Booking Aap</h3>
+                    <p>The aap where we can book the tickets whichever movie we want to watch. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----contact me------ -->
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
